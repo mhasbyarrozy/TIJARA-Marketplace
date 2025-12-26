@@ -1,0 +1,214 @@
+/* RESET DAN BASE STYLES */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Background yang lembut */
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* HEADER DAN NAVIGATION */
+.main-header {
+    background-color: #00897B; /* Hijau Tosca/Teal, memberikan kesan ketenangan dan kesegaran (Nuansa Islami) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    flex-grow: 1; /* Membuat search bar mengambil ruang tengah */
+    display: flex;
+    max-width: 600px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #FF5722; /* Warna Aksen (Mirip Shopee/Oren) untuk tombol */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* User Nav */
+.user-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.nav-icon {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.login-button {
+    background-color: #4DB6AC; 
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #26A69A;
+}
+
+/* BANNER */
+.banner-promo {
+    background-color: #E0F2F1; /* Warna sangat terang, bersih */
+    color: #004D40;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #B2DFDB;
+}
+
+/* KATEGORI */
+.main-categories h3, .product-showcase h3 {
+    border-bottom: 2px solid #00897B;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.category-item {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-weight: 600;
+    color: #00897B;
+}
+
+.category-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* PRODUCT SHOWCASE */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-info h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    height: 40px; /* Untuk konsistensi baris */
+}
+
+.price {
+    color: #FF5722;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.location {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    width: 100%;
+    padding: 8px;
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #E64A19;
+}
+
+/* FOOTER */
+.main-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-links a {
+    color: #80CBC4;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
