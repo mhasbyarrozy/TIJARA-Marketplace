@@ -15,7 +15,8 @@ TIJARA adalah sistem marketplace berbasis web yang dirancang untuk mengelola pro
 - **Frontend:** HTML5, CSS3, JavaScript (Bootstrap/Tailwind jika ada)
 - **Server:** XAMPP (Apache)
 
-## 📸 Tampilan Proyek
+## 📸 Tampilan Proyek 
+![Halaman Utama TIJARA](tampilan.png)
 *(Tips: Kamu bisa memasukkan screenshot web kamu di sini nanti)*
 
 ## ⚙️ Instalasi
