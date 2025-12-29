@@ -7,17 +7,17 @@ TIJARA adalah sistem marketplace berbasis web yang dirancang untuk mengelola pro
 - **Sistem Keranjang:** Fitur belanja yang interaktif bagi pengguna.
 - **Manajemen Transaksi:** Pencatatan riwayat pembelian secara sistematis.
 - **Dashboard Admin:** Area khusus untuk pengelolaan data marketplace.
-- **Responsive Design:** Tampilan yang optimal di berbagai perangkat.
 
 ## 🛠️ Teknologi yang Digunakan
 - **Backend:** PHP Native
 - **Database:** MySQL
-- **Frontend:** HTML5, CSS3, JavaScript (Bootstrap/Tailwind jika ada)
 - **Server:** XAMPP (Apache)
 
 ## 📸 Tampilan Proyek 
+
 ![Halaman Utama TIJARA](tampilan.png)
-*(Tips: Kamu bisa memasukkan screenshot web kamu di sini nanti)*
+
+---
 
 ## ⚙️ Instalasi
 1. Clone repository ini:
